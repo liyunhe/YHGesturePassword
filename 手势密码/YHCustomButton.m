@@ -10,4 +10,11 @@
 
 @implementation YHCustomButton
 
+-(instancetype)init{
+    self = [super init];
+    if (self) {
+        self.backgroundColor = [UIColor grayColor];
+    }
+    return self;
+}
 @end

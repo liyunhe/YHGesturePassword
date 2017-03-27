@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "YHResultPasswordViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    [[NSUserDefaults standardUserDefaults] objectForKey:@"pwdValue"];
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"pwdValue"] == nil) {
+        ViewController *Vc = [[ViewController alloc]init];
+        UINavigationController *Nv = [[UINavigationController alloc]initWithRootViewController:Vc];
+        _window .rootViewController = Nv;
+    }else{
+        YHResultPasswordViewController *Vc = [[YHResultPasswordViewController alloc]init];
+        UINavigationController *Nv = [[UINavigationController alloc]initWithRootViewController:Vc];
+        _window .rootViewController = Nv;
+
+    }
     // Override point for customization after application launch.
     return YES;
 }

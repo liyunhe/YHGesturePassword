@@ -6,8 +6,8 @@
 //  Copyright © 2017年 mrlee. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface YHCustomButton : NSObject
+@interface YHCustomButton : UIButton
 
 @end

@@ -10,9 +10,11 @@
 		4017AA421E6BDB07006DA62D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017AA411E6BDB07006DA62D /* main.m */; };
 		4017AA451E6BDB07006DA62D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017AA441E6BDB07006DA62D /* AppDelegate.m */; };
 		4017AA481E6BDB07006DA62D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017AA471E6BDB07006DA62D /* ViewController.m */; };
-		4017AA4B1E6BDB07006DA62D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4017AA491E6BDB07006DA62D /* Main.storyboard */; };
 		4017AA4D1E6BDB07006DA62D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4017AA4C1E6BDB07006DA62D /* Assets.xcassets */; };
 		4017AA501E6BDB07006DA62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4017AA4E1E6BDB07006DA62D /* LaunchScreen.storyboard */; };
+		4017AA591E6BEAFF006DA62D /* YHGesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017AA581E6BEAFF006DA62D /* YHGesturePasswordView.m */; };
+		4017AA5C1E6BF1A8006DA62D /* YHCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017AA5B1E6BF1A8006DA62D /* YHCustomButton.m */; };
+		4017AA5F1E714AA0006DA62D /* YHResultPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017AA5E1E714AA0006DA62D /* YHResultPasswordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,15 @@
 		4017AA441E6BDB07006DA62D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4017AA461E6BDB07006DA62D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4017AA471E6BDB07006DA62D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4017AA4A1E6BDB07006DA62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4017AA4C1E6BDB07006DA62D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4017AA4F1E6BDB07006DA62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4017AA511E6BDB07006DA62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4017AA571E6BEAFF006DA62D /* YHGesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHGesturePasswordView.h; sourceTree = "<group>"; };
+		4017AA581E6BEAFF006DA62D /* YHGesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHGesturePasswordView.m; sourceTree = "<group>"; };
+		4017AA5A1E6BF1A8006DA62D /* YHCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCustomButton.h; sourceTree = "<group>"; };
+		4017AA5B1E6BF1A8006DA62D /* YHCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCustomButton.m; sourceTree = "<group>"; };
+		4017AA5D1E714AA0006DA62D /* YHResultPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHResultPasswordViewController.h; sourceTree = "<group>"; };
+		4017AA5E1E714AA0006DA62D /* YHResultPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHResultPasswordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +65,20 @@
 		4017AA3F1E6BDB07006DA62D /* 手势密码 */ = {
 			isa = PBXGroup;
 			children = (
+				4017AA571E6BEAFF006DA62D /* YHGesturePasswordView.h */,
+				4017AA581E6BEAFF006DA62D /* YHGesturePasswordView.m */,
 				4017AA431E6BDB07006DA62D /* AppDelegate.h */,
 				4017AA441E6BDB07006DA62D /* AppDelegate.m */,
 				4017AA461E6BDB07006DA62D /* ViewController.h */,
 				4017AA471E6BDB07006DA62D /* ViewController.m */,
-				4017AA491E6BDB07006DA62D /* Main.storyboard */,
 				4017AA4C1E6BDB07006DA62D /* Assets.xcassets */,
 				4017AA4E1E6BDB07006DA62D /* LaunchScreen.storyboard */,
 				4017AA511E6BDB07006DA62D /* Info.plist */,
 				4017AA401E6BDB07006DA62D /* Supporting Files */,
+				4017AA5A1E6BF1A8006DA62D /* YHCustomButton.h */,
+				4017AA5B1E6BF1A8006DA62D /* YHCustomButton.m */,
+				4017AA5D1E714AA0006DA62D /* YHResultPasswordViewController.h */,
+				4017AA5E1E714AA0006DA62D /* YHResultPasswordViewController.m */,
 			);
 			path = "手势密码";
 			sourceTree = "<group>";
@@ -139,7 +151,6 @@
 			files = (
 				4017AA501E6BDB07006DA62D /* LaunchScreen.storyboard in Resources */,
 				4017AA4D1E6BDB07006DA62D /* Assets.xcassets in Resources */,
-				4017AA4B1E6BDB07006DA62D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4017AA5F1E714AA0006DA62D /* YHResultPasswordViewController.m in Sources */,
+				4017AA591E6BEAFF006DA62D /* YHGesturePasswordView.m in Sources */,
+				4017AA5C1E6BF1A8006DA62D /* YHCustomButton.m in Sources */,
 				4017AA481E6BDB07006DA62D /* ViewController.m in Sources */,
 				4017AA451E6BDB07006DA62D /* AppDelegate.m in Sources */,
 				4017AA421E6BDB07006DA62D /* main.m in Sources */,
@@ -159,14 +173,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4017AA491E6BDB07006DA62D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4017AA4A1E6BDB07006DA62D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4017AA4E1E6BDB07006DA62D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
